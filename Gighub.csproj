@@ -185,6 +185,10 @@
     <Compile Include="Migrations\202107010152056_overidemigrationforgigsandgenre.Designer.cs">
       <DependentUpon>202107010152056_overidemigrationforgigsandgenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107010200125_populateGenreTable.cs" />
+    <Compile Include="Migrations\202107010200125_populateGenreTable.Designer.cs">
+      <DependentUpon>202107010200125_populateGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -277,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107010152056_overidemigrationforgigsandgenre.resx">
       <DependentUpon>202107010152056_overidemigrationforgigsandgenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107010200125_populateGenreTable.resx">
+      <DependentUpon>202107010200125_populateGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
