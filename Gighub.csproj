@@ -194,18 +194,30 @@
     <Compile Include="Migrations\202107012149297_AddForignkeyPropertyofGig.Designer.cs">
       <DependentUpon>202107012149297_AddForignkeyPropertyofGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107022311103_AddNameToAppUser.cs" />
+    <Compile Include="Migrations\202107022311103_AddNameToAppUser.Designer.cs">
+      <DependentUpon>202107022311103_AddNameToAppUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="ViewModels\ExternalLoginListViewModel.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
+    <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
+    <Compile Include="ViewModels\ForgotViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\ManageViewModels.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\FutureTime.cs" />
     <Compile Include="ViewModels\GigFormVm.cs" />
+    <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
+    <Compile Include="ViewModels\SendCodeViewModel.cs" />
+    <Compile Include="ViewModels\VerifyCodeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -296,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107012149297_AddForignkeyPropertyofGig.resx">
       <DependentUpon>202107012149297_AddForignkeyPropertyofGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107022311103_AddNameToAppUser.resx">
+      <DependentUpon>202107022311103_AddNameToAppUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
